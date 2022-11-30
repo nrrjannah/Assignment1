@@ -8,7 +8,18 @@ body{
     flex-wrap: wrap;
   }
 
-img:hover, img:active {
-    background: #0aff52;
-    box-shadow: 0 0 5px #859112, 0 0 50px #859112, 0 0 50px #859112, 0 0 200px #859112;
+img {
+    opacity: 0.6;
 }
+
+img:hover, img:active {
+    animation: fadeIn 0.5s;
+    opacity: 1;
+    background: #80A34D;
+    box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
