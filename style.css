@@ -7,3 +7,8 @@ body{
     justify-content: center;
     flex-wrap: wrap;
   }
+
+img:hover, img:active {
+    background: #0aff52;
+    box-shadow: 0 0 5px #859112, 0 0 50px #859112, 0 0 50px #859112, 0 0 200px #859112;
+}
