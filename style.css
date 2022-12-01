@@ -19,11 +19,6 @@ img:hover, img:active {
     box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0.5; }
-    100% { opacity: 1; }
-  }
-
 p { 
     color: white;
 }
@@ -51,22 +46,34 @@ p {
 		top: 150px;
 		bottom: 0;
 		left: 50px;
-        right: 500px;
-		width: 70%;
+        width: 70%;
 		height: 70%;
 		border: 0;}
 
 
 .sidenav{
     height: 100%;
-    width: 250px;
+    width: 300px;
     position: fixed;
     top: 0;
-    right: 65px;
-    background-color: #3d4532;
+    right: 50px;
+    background-color: #1f231b;
     overflow-x: hidden;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     .container {width: auto; height: auto;}
+    .sidenav {width: 150px; right: 0px}
+  }
+
+.purchaseMW {
+    width: 300px;
+    opacity: 0.5;
+    background: #80A34D;
+    box-shadow: 0 0 5px #80A34D;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
   }
