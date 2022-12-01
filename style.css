@@ -27,3 +27,46 @@ img:hover, img:active {
 p { 
     color: white;
 }
+
+.container {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 700px;
+}
+
+.embed-responsive {
+	position: realtive;
+	display: block;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+	&::before {
+		padding-top: 50%;
+		display: block; 
+		content: "";
+		box-sizing: border-box;}}
+
+	iframe {
+		position: absolute;
+		top: 150px;
+		bottom: 0;
+		left: 50px;
+        right: 500px;
+		width: 70%;
+		height: 70%;
+		border: 0;}
+
+
+.sidenav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 65px;
+    background-color: #3d4532;
+    overflow-x: hidden;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {width: auto; height: auto;}
+  }
