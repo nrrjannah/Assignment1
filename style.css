@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,900&family=Oswald:wght@600&display=swap');
+
 body{
     background-color: black;
 }
@@ -19,8 +21,17 @@ img:hover, img:active {
     box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
 }
 
-p { 
+h1 {
     color: white;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+p { 
+    color: rgb(176, 176, 176);
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    text-align: center;
 }
 
 .container {
@@ -53,24 +64,33 @@ p {
 
 .sidenav{
     height: 100%;
-    width: 300px;
+    width: 330px;
     position: fixed;
     top: 0;
-    right: 50px;
+    right: 35px;
     background-color: #1f231b;
     overflow-x: hidden;
   }
 
   @media only screen and (max-width: 1000px) {
-    .container {width: auto; height: auto;}
-    .sidenav {width: 150px; right: 0px}
+    .container {width: auto; height: auto; margin-left: 30px;}
+    .sidenav {width: 200px; right: 0px}
+    .purchaseMW2 {width:auto}
   }
 
 .purchaseMW {
-    width: 300px;
+    width: 315px;
     opacity: 0.5;
     background: #80A34D;
     box-shadow: 0 0 5px #80A34D;
+}
+
+.blogMW {
+    color:rgb(176, 176, 176);
+    padding: 40px;
+    align-content: center;
+    background-color: #43532a;
+    font-family: 'Barlow', sans-serif;
 }
 
 @keyframes fadeIn {
