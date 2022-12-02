@@ -85,12 +85,37 @@ p {
     box-shadow: 0 0 5px #80A34D;
 }
 
-.blogMW {
+.blogMW, .blogW2 {
     color:rgb(176, 176, 176);
     padding: 40px;
     align-content: center;
     background-color: #43532a;
     font-family: 'Barlow', sans-serif;
+}
+
+.WZxbox, .WZbattlenet, .WZsteam {
+    color:rgb(176, 176, 176);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    background-color: #43532a;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    
+}
+
+.blogMW:hover, .blogW2:hover, .WZxbox:hover, .WZbattlenet:hover, .WZsteam:hover  {
+    animation: fadeIn 0.5s;
+    opacity: 1;
+    color:rgb(32, 28, 28);
+    background: #b5cf8f;
+    box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
+}
+
+.WZdownloads {
+    align-items: center;
 }
 
 @keyframes fadeIn {
