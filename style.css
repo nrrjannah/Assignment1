@@ -26,6 +26,8 @@ img:hover, img:active {
     box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
 }
 
+.sideinfo img {width: 310px;}
+
 h1 {
     color: white;
     text-align: center;
@@ -80,6 +82,8 @@ p {
   @media only screen and (max-width: 1100px) {
     .container {width: auto; height: auto; margin-left: 30px; margin-right: 200px;}
     .sideinfo {width: 200px; right: 0px}
+    .sideinfo img {width: 160px;}
+    .blogMW, .blogW2, .WZxbox, .WZbattlenet, .WZsteam{padding:5px;}
     .purchaseMW2 {width:auto;}
   }
 
@@ -113,6 +117,10 @@ p {
     color:rgb(32, 28, 28);
     background: #b5cf8f;
     box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
+}
+
+.WZdownloads{
+    text-align: center;
 }
 
 @keyframes fadeIn {
