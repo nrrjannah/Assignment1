@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,900&family=Oswald:wght@600&display=swap');
 
+a {color: white;}
+
 body{
     background-color: black;
 }
@@ -8,6 +10,7 @@ footer{
     background-color: #2a321e;
     padding: 5px;
     bottom: 0;
+    font-size: 20px;
 }
 
 .flex-container{
@@ -20,7 +23,7 @@ img {
     opacity: 0.6;
 }
 
-img:hover, img:active {
+img:hover, img:active, .appleselect:hover, .googleselect:hover {
     animation: fadeIn 0.5s;
     opacity: 1;
     background: #80A34D;
@@ -89,22 +92,7 @@ p{
     .blog, .WZxbox, .WZbattlenet, .WZsteam{padding:10px; font-size: 10px;}
   }
 
-.purchaseMW {
-    width: 315px;
-    opacity: 0.5;
-    background: #80A34D;
-    box-shadow: 0 0 5px #80A34D;
-}
-
-.blog {
-    color:rgb(176, 176, 176);
-    padding: 40px;
-    align-content: center;
-    background-color: #43532a;
-    font-family: 'Barlow', sans-serif;
-}
-
-.WZxbox, .WZbattlenet, .WZsteam {
+.blog, .WZxbox, .WZbattlenet, .WZsteam {
     color:rgb(176, 176, 176);
     padding: 20px;
     border-width: 100%;
@@ -138,25 +126,14 @@ p{
     font-size: 40px;
 }
 
-.hide5 img {opacity: 1;}
-.hide10 img {opacity: 1;}
-.hide15 img {opacity: 1;}
-.hide25 img {opacity: 1;}
+.hide5 img, .hide10 img, .hide15 img, .hide25 img{opacity: 1;}
 
 .hide5, .hide10, .hide15, .hide25 {display: none;}
       
-.mil5:hover + .hide5 {
+.mil5:hover + .hide5, .mil10:hover + .hide10, .mil15:hover + .hide15, .mil25:hover + .hide25 {
     display: block;
     animation: fadeIn 0.5s;}
 
-.mil10:hover + .hide10 {
-    display: block;
-    animation: fadeIn 0.5s;}
-
-.mil15:hover + .hide15 {
-    display: block;
-    animation: fadeIn 0.5s;}
-
-.mil25:hover + .hide25 {
-    display: block;
-    animation: fadeIn 0.5s;}
+.appleselect, .googleselect {
+    background-color: #1f231b;
+    padding: 10px;}
