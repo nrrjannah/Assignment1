@@ -35,7 +35,7 @@ h1 {
     font-family: 'Barlow', sans-serif;
 }
 
-p { 
+p{ 
     color: rgb(176, 176, 176);
     font-family: 'Oswald', sans-serif;
     padding: 10px;
@@ -130,11 +130,33 @@ p {
     100% { opacity: 1; }
   }
 
-.hide {
-    display: none;
+.mil5, .mil10, .mil15, .mil25{ 
+    color: rgb(176, 176, 176);
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
 }
+
+.hide5 img {opacity: 1;}
+.hide10 img {opacity: 1;}
+.hide15 img {opacity: 1;}
+.hide25 img {opacity: 1;}
+
+.hide5, .hide10, .hide15, .hide25 {display: none;}
       
 .mil5:hover + .hide5 {
     display: block;
-    color: red;
-}
+    animation: fadeIn 0.5s;}
+
+.mil10:hover + .hide10 {
+    display: block;
+    animation: fadeIn 0.5s;}
+
+.mil15:hover + .hide15 {
+    display: block;
+    animation: fadeIn 0.5s;}
+
+.mil25:hover + .hide25 {
+    display: block;
+    animation: fadeIn 0.5s;}
