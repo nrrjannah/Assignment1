@@ -1,10 +1,68 @@
 <!doctype html> 
 <html> 
+<header>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <a class="home" href="index.html"><img src="navigation/cod.jpg" alt="COD logo" style="height: 90px;"></a>
+    <a class="register" href="register.html"><img src="navigation/sign up.jpg" height="50px"></a><br>
+</header>
+<body>
+    <div class="card">
+        <form>
+            <h1>GET FREQUENT UPDATES NOW!</h1>
+            <label for="username">Your COD UID:</label>
+            <input type="text" id="username" name="username"><br>
 
-<head> 
-<meta charset="UTF-8">
-</head>
+            <label for="email">Your e-mail:</label>
+            <input type="text" id="email" name="email"><br>
 
-<p>register</p>
+            <h1>SELECT THOSE YOU WANT UPDATES FOR</h1>
+
+            <input type="checkbox" id="mw2" name="mw2" value="Modern Warfare II">
+            <label for="mw2">MODERN WARFARE II</label><br>
+
+            <input type="checkbox" id="w2" name="w2" value="Warzone 2.0">
+            <label for="w2">WARZONE 2.0</label><br>
+
+            <input type="checkbox" id="vanguard" name="vanguard" value="vanguard">
+            <label for="vanguard">VANGUARD</label><br>
+
+            <input type="checkbox" id="wzm" name="wzm" value="wzm">
+            <label for="wzm">WARZONE MOBILE</label><br>
+
+            <input type="checkbox" id="mobile" name="mobile" value="mobile">
+            <label for="mobile">COD MOBILE</label><br>
+
+            <h1>WHAT KIND OF UPDATES WOULD YOU LIKE?</h1>
+
+            <input type="checkbox" id="news" name="news" value="news">
+            <label for="news">News</label><br>
+
+            <input type="checkbox" id="announcements" name="announcements" value="announcements">
+            <label for="announcements">Announcements</label><br>
+
+            <input type="checkbox" id="bp" name="bp" value="bp">
+            <label for="bp">Battle Pass Intel</label><br>
+
+            <input type="checkbox" id="map" name="map" value="map">
+            <label for="map">Map Intel</label><br>
+
+            <h1>HOW FREQUENTLY WOULD YOU LIKE TO BE UPDATED?</h1>
+
+            <input type="radio" id="week" name="week" value="week">
+            <label for="week">Once a week</label><br>
+
+            <input type="radio" id="month" name="month" value="month">
+            <label for="month">How many times a month? (between 1 and 10):</label>
+            <input type="number" id="month" name="month" min="1" max="10"><br><br>
+
+            <h1>BEFORE YOU GO...</h1>
+            <textarea name="message" rows="7" cols="50">Share your thoughts or give any feedback to this website!</textarea><br>
+
+            <button type="button" onclick="alert('Submitted! Have fun playing Call Of Duty®')">GET MY UPDATES</button>
+        </form>
+    </div>
+      
+</body>
 
 </html>

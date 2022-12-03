@@ -90,16 +90,24 @@ p{
     .mil5, .mil10, .mil15, .mil25{font-size: 20px;}
   }
 
-.blog, .WZxbox, .WZbattlenet, .WZsteam, .milestone {
+.blog, .WZxbox, .WZbattlenet, .WZsteam, .milestone{
     color:rgb(176, 176, 176);
     padding: 20px;
     border-width: 100%;
     background-color: #43532a;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
-.blog:hover, .WZxbox:hover, .WZbattlenet:hover, .WZsteam:hover{
+.card {
+    background-color: #2a321e;
+    color: rgb(176, 176, 176);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 20px;}
+
+.blog:hover, .WZxbox:hover, .WZbattlenet:hover, .WZsteam:hover, .card:hover{
     animation: fadeIn 0.5s;
     opacity: 1;
     color:rgb(32, 28, 28);
@@ -135,3 +143,16 @@ p{
 .appleselect, .googleselect {
     background-color: #1f231b;
     padding: 10px;}
+
+.card h1 {font-size: 30px;}
+
+button, input[type="text"] {
+    width: 200px;
+    background-color: #879f5f;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button {font-size: 20px;;}
