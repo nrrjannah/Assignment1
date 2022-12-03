@@ -7,6 +7,6 @@ This website is targeted at those who are interested to start playing Call Of Du
  - link to the latest blog there is for that game
 Gamers who stumble upon this website can also sign up for the latest updates. They have the choice to subscribe for the updates of whichever game they would like. These updates are sent to their e-mail.
 
-REFERENCES:<br>
+CREDITS AND REFERENCES:<br>
 - ALL information from: https://www.callofduty.com/
 - responsive Youtube video formatting: https://youtu.be/jSVy-6kQDxY
