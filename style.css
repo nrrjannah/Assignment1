@@ -64,7 +64,7 @@ p {
 		position: absolute;
 		top: 150px;
 		bottom: 0;
-		left: 50px;
+		left: 30px;
         width: 70%;
 		height: 70%;
 		border: 0;}
@@ -78,6 +78,8 @@ p {
     right: 35px;
     background-color: #1f231b;
     overflow-x: hidden;
+    align-content: center;
+    text-align: center;
   }
 
   @media only screen and (max-width: 1100px) {
@@ -85,7 +87,6 @@ p {
     .sideinfo {width: 200px; right: 0px}
     .sideinfo img {width: 160px;}
     .blog, .WZxbox, .WZbattlenet, .WZsteam{padding:10px; font-size: 10px;}
-    .purchaseMW2 {width:auto;}
   }
 
 .purchaseMW {
@@ -128,3 +129,12 @@ p {
     0% { opacity: 0.5; }
     100% { opacity: 1; }
   }
+
+.hide {
+    display: none;
+}
+      
+.mil5:hover + .hide5 {
+    display: block;
+    color: red;
+}
