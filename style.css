@@ -4,6 +4,11 @@ body{
     background-color: black;
 }
 
+footer{
+    background-color: #2a321e;
+    padding: 5px;
+}
+
 .flex-container{
     display: flex;
     justify-content: center;
@@ -37,7 +42,7 @@ p {
 .container {
     margin-left: 50px;
     margin-top: 10px;
-    margin-right: 700px;
+    
 }
 
 .embed-responsive {
@@ -62,9 +67,9 @@ p {
 		border: 0;}
 
 
-.sidenav{
+.sideinfo{
     height: 100%;
-    width: 330px;
+    width: 350px;
     position: fixed;
     top: 0;
     right: 35px;
@@ -72,10 +77,10 @@ p {
     overflow-x: hidden;
   }
 
-  @media only screen and (max-width: 1000px) {
-    .container {width: auto; height: auto; margin-left: 30px;}
-    .sidenav {width: 200px; right: 0px}
-    .purchaseMW2 {width:auto}
+  @media only screen and (max-width: 1100px) {
+    .container {width: auto; height: auto; margin-left: 30px; margin-right: 200px;}
+    .sideinfo {width: 200px; right: 0px}
+    .purchaseMW2 {width:auto;}
   }
 
 .purchaseMW {
@@ -95,15 +100,11 @@ p {
 
 .WZxbox, .WZbattlenet, .WZsteam {
     color:rgb(176, 176, 176);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-content: center;
+    padding: 20px;
+    border-width: 100%;
     background-color: #43532a;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
-    
 }
 
 .blogMW:hover, .blogW2:hover, .WZxbox:hover, .WZbattlenet:hover, .WZsteam:hover  {
@@ -112,10 +113,6 @@ p {
     color:rgb(32, 28, 28);
     background: #b5cf8f;
     box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
-}
-
-.WZdownloads {
-    align-items: center;
 }
 
 @keyframes fadeIn {
