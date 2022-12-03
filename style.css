@@ -48,7 +48,6 @@ p{
 .container {
     margin-left: 50px;
     margin-top: 10px;
-    
 }
 
 .embed-responsive {
@@ -72,7 +71,6 @@ p{
 		height: 70%;
 		border: 0;}
 
-
 .sideinfo{
     height: 100%;
     width: 350px;
@@ -88,11 +86,11 @@ p{
   @media only screen and (max-width: 1100px) {
     .container {width: auto; height: auto; margin-left: 30px; margin-right: 500px;}
     .sideinfo {width: 200px; right: 0px}
-    .sideinfo img {width: 160px;}
-    .blog, .WZxbox, .WZbattlenet, .WZsteam{padding:10px; font-size: 10px;}
+    .sideinfo img, .milestone img{width: 160px;}
+    .mil5, .mil10, .mil15, .mil25{font-size: 20px;}
   }
 
-.blog, .WZxbox, .WZbattlenet, .WZsteam {
+.blog, .WZxbox, .WZbattlenet, .WZsteam, .milestone {
     color:rgb(176, 176, 176);
     padding: 20px;
     border-width: 100%;
@@ -101,7 +99,7 @@ p{
     font-size: 20px;
 }
 
-.blog:hover, .WZxbox:hover, .WZbattlenet:hover, .WZsteam:hover  {
+.blog:hover, .WZxbox:hover, .WZbattlenet:hover, .WZsteam:hover{
     animation: fadeIn 0.5s;
     opacity: 1;
     color:rgb(32, 28, 28);
@@ -109,7 +107,7 @@ p{
     box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
 }
 
-.purchase {
+.purchase, .milestone {
     text-align: center;
 }
 
@@ -126,7 +124,7 @@ p{
     font-size: 40px;
 }
 
-.hide5 img, .hide10 img, .hide15 img, .hide25 img{opacity: 1;}
+.hide5 img, .hide10 img, .hide15 img, .hide25 img, .milestone img{opacity: 1;}
 
 .hide5, .hide10, .hide15, .hide25 {display: none;}
       
