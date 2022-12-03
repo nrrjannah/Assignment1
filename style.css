@@ -83,9 +83,8 @@ p {
     .container {width: auto; height: auto; margin-left: 30px; margin-right: 500px;}
     .sideinfo {width: 200px; right: 0px}
     .sideinfo img {width: 160px;}
-    .blog, .WZxbox, .WZbattlenet, .WZsteam{padding:5px;}
+    .blog, .WZxbox, .WZbattlenet, .WZsteam{padding:10px; font-size: 10px;}
     .purchaseMW2 {width:auto;}
-    .WZxbox, .WZbattlenet, .WZsteam {font-size: 5px;}
   }
 
 .purchaseMW {

@@ -10,3 +10,4 @@ Gamers who stumble upon this website can also sign up for the latest updates. Th
 CREDITS AND REFERENCES:<br>
 - ALL information from: https://www.callofduty.com/
 - responsive Youtube video formatting: https://youtu.be/jSVy-6kQDxY
+- ALL images are from Google Search and Call Of Duty Official website. 
