@@ -1,4 +1,4 @@
-# Call Of Duty for beginners
+# Call Of Duty for Beginners
 This website is targeted at those who are interested to start playing Call Of Duty and want to know the gist of it. The landing page shows the more popular and recent games COD has released.
 
  This website condenses all the information to mainly give users the:
@@ -9,7 +9,7 @@ This website is targeted at those who are interested to start playing Call Of Du
 
 Gamers who stumble upon this website can also sign up for the latest updates. They have the choice to subscribe for the updates of whichever game they would like. These updates are sent to their e-mail.
 
-# Design Rationale
+# DESIGN RATIONALE
 As a user of this page, I want to explore the different games Call of Duty has to offer so that I can decide which game I should install. 
 As a user of this page, I want to sign up for updates so that I can be more alert and aware of any new features I can get. 
 
