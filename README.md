@@ -1,4 +1,4 @@
-# Assignment1
+# testing
 This website is targeted at those who are interested to start playing Call Of Duty and want to know the gist of it. The landing page shows the more popular and recent games COD has released.
  This website condenses all the information to mainly give users the:
  - trailer
