@@ -156,3 +156,33 @@ button, input[type="text"] {
 }
 
 button {font-size: 20px;;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    background-color: #1f231b;
+}
+  
+.dropdown-content a {
+    color:rgb(176, 176, 176);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    animation: fadeIn 0.5s;
+    color:rgb(32, 28, 28);
+    background: #b5cf8f;
+    box-shadow: 0 0 5px #80A34D, 0 0 50px #80A34D, 0 0 50px #80A34D, 0 0 200px #80A34D;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
