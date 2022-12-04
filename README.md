@@ -3,8 +3,8 @@ This website is targeted at those who are interested to start playing Call Of Du
  This website condenses all the information to mainly give users the:
  - trailer
  - summarised version of what each campaign is about
- - link to purchase or download the game
  - link to the latest blog there is for that game
+ - link to purchase or download the game
 
 So as to promote Call Of Duty's newest release, Modern Warfare II, the overall colour scheme of this website follows its palette, which is mainly green and black.
 
